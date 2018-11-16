@@ -1,0 +1,36 @@
+{
+  "name": "commander-inquirer-example",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/mlada/commander-inquirer-example",
+    "type": "git"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm test",
+    "start:03": "node 03-burger",
+    "start:04": "node 04-burger"
+  },
+  "dependencies": {
+    "colors": "^1.3.2",
+    "commander": "^2.15.1",
+    "del": "^3.0.0",
+    "inquirer": "^6.2.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
